@@ -117,20 +117,41 @@
                                 <state key="normal" title=":"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HLY-6e-Dvf">
-                                <rect key="frame" x="54" y="412" width="240" height="128"/>
+                                <rect key="frame" x="52" y="507" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phG-RZ-AmT">
-                                <rect key="frame" x="34" y="313" width="62" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzP-4G-za1">
+                                <rect key="frame" x="36" y="457" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="选取照片"/>
+                                <state key="normal" title="上传头像"/>
+                                <connections>
+                                    <action selector="img1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2xd-fw-an6"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1OI-DW-DZi">
+                                <rect key="frame" x="238" y="457" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="上传头像"/>
+                                <connections>
+                                    <action selector="img2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oNB-NC-4jU"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKl-Kk-j42">
+                                <rect key="frame" x="10" y="306" width="144" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7x-aI-uL5">
+                                <rect key="frame" x="192" y="306" width="145" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="Final1" destination="ZSW-hh-PGy" id="96c-8O-Da2"/>
                         <outlet property="Final2" destination="BxW-pO-Otp" id="b96-9I-KiW"/>
+                        <outlet property="image2" destination="W7x-aI-uL5" id="Q3u-Uh-P8n"/>
+                        <outlet property="imageA" destination="sKl-Kk-j42" id="vQ0-Zw-5be"/>
                         <outlet property="x" destination="Vwe-pc-no0" id="zYh-Yp-alU"/>
                         <outlet property="y" destination="Cy1-9b-Hny" id="Rxa-R5-HrQ"/>
                         <outlet property="z" destination="0Bj-sr-tuZ" id="Djh-NL-vyS"/>
