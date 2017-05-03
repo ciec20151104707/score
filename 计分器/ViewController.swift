@@ -87,7 +87,7 @@ class ViewController: UIViewController,
     var j : Int = 0
     var k : Int = 0
     var l : Int = 0
-    
+    var m : Int = 0
     @IBAction func restart(_ sender: UIButton) {
         a = 0
         b = 0
@@ -117,12 +117,15 @@ class ViewController: UIViewController,
         
     }
     @IBAction func A2(_ sender: UIButton) {
-        a = a - 1
+        
+        if a>=0{
+            a = a - 1
         x.text = "\(a)"
+        }
         if a < 0
         {
             x.text = "输入有误请点重新开始"
-        x.text = "/(0)"}
+        x.text = "\(0)"}
     }
     @IBAction func B1(_ sender: UIButton) {
         b = b + 1
@@ -143,8 +146,11 @@ class ViewController: UIViewController,
         }
     }
     @IBAction func B2(_ sender: UIButton) {
-        b = b - 1
-        y.text = "\(b)"
+        if  b>=0{
+             b = b - 1
+            y.text = "\(b)"
+        }
+        
         if b < 0
         {
             y.text = "输入有误请点重新开始"
