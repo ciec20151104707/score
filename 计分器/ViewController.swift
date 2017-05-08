@@ -95,6 +95,15 @@ class ViewController: UIViewController,
         y.text = "\(0)"
         z.text = " "
     }
+    @IBAction func restart1(_ sender: UIButton) {
+        i = 0
+        j = 0
+        k = 0
+        l = 0
+        Final1.text = "\(0)"
+        Final2.text = "\(0)"
+        
+    }
     @IBOutlet weak var Final1: UITextField!
     @IBOutlet weak var Final2: UITextField!
     @IBAction func A1(_ sender: UIButton) {
