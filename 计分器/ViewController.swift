@@ -115,12 +115,21 @@ class ViewController: UIViewController,
                 k = i + 1
                 i += 1
                 Final1.text = "\(k)"
+                a = 0
+                b = 0
+                x.text = "\(m)"
+                y.text = "\(m)"
             }
         }else if a > b && a == 11{
             z.text="A选手获胜"
             k = i + 1
             i += 1
             Final1.text = "\(k)"
+            a = 0
+            b = 0
+            x.text = "\(m)"
+            y.text = "\(m)"
+
 
         }
         
@@ -145,6 +154,11 @@ class ViewController: UIViewController,
                 l = j + 1
                 j += 1
                 Final2.text = "\(l)"
+                a = 0
+                b = 0
+                x.text = "\(m)"
+                y.text = "\(m)"
+
 
             }
         }else if b > a&&b == 11{
@@ -152,6 +166,11 @@ class ViewController: UIViewController,
             l = j + 1
             j += 1
             Final2.text = "\(l)"
+            a = 0
+            b = 0
+            x.text = "\(m)"
+            y.text = "\(m)"
+
         }
     }
     @IBAction func B2(_ sender: UIButton) {
