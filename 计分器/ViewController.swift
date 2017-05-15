@@ -24,7 +24,9 @@ class ViewController: UIViewController,
     @IBOutlet weak var y: UITextField!
     @IBOutlet weak var z: UITextField!
     @IBOutlet weak var imageA: UIImageView!
-    @IBOutlet weak var image2: UIImageView!
+    @IBOutlet weak var imageB: UIImageView!
+    @IBOutlet weak var P: UITextField!
+    @IBOutlet weak var Q: UITextField!
     @IBAction func img1(_ sender: UIButton) {
         if dlg==0{
             flagA=1
@@ -76,7 +78,7 @@ class ViewController: UIViewController,
         //获取选择的原图
         image = info[UIImagePickerControllerOriginalImage] as! UIImage
         if(flagA==1){imageA.image = image}
-        else if(flagB==1){image2.image = image}
+        else if(flagB==1){imageB.image = image}
         //图片控制器退出
         picker.dismiss(animated: true, completion: {
             () -> Void in
@@ -94,6 +96,8 @@ class ViewController: UIViewController,
         x.text = "\(0)"
         y.text = "\(0)"
         z.text = " "
+        P.text = " "
+        Q.text = " "
     }
     @IBAction func restart1(_ sender: UIButton) {
         i = 0
@@ -102,11 +106,15 @@ class ViewController: UIViewController,
         l = 0
         Final1.text = "\(0)"
         Final2.text = "\(0)"
+        P.text = " "
+        Q.text = " "
         
     }
     @IBOutlet weak var Final1: UITextField!
     @IBOutlet weak var Final2: UITextField!
     @IBAction func A1(_ sender: UIButton) {
+        P.text = "A发球"
+        Q.text = " "
         a=a+1
         x.text = "\(a)"
         if a >= 10 && b >= 10{
@@ -119,6 +127,8 @@ class ViewController: UIViewController,
                 b = 0
                 x.text = "\(m)"
                 y.text = "\(m)"
+               
+
             }
         }else if a > b && a == 11{
             z.text="A选手获胜"
@@ -129,11 +139,14 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
+           
 
 
         }
         
     }
+
+   
     @IBAction func A2(_ sender: UIButton) {
         
         if a>=0{
@@ -146,6 +159,9 @@ class ViewController: UIViewController,
         x.text = "\(0)"}
     }
     @IBAction func B1(_ sender: UIButton) {
+        Q.text = "B发球"
+        P.text = " "
+
         b = b + 1
         y.text = "\(b)"
         if a >= 10 && b >= 10{
@@ -159,7 +175,6 @@ class ViewController: UIViewController,
                 x.text = "\(m)"
                 y.text = "\(m)"
 
-
             }
         }else if b > a&&b == 11{
             z.text="B选手获胜"
@@ -170,8 +185,9 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
-
+            
         }
+     
     }
     @IBAction func B2(_ sender: UIButton) {
         if  b>=0{

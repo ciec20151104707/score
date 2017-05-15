@@ -152,14 +152,30 @@
                                 <rect key="frame" x="61" y="432" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vug-WO-h5a">
+                                <rect key="frame" x="194" y="511" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QZD-23-or0">
+                                <rect key="frame" x="73" y="451" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.68068238709999995" green="0.90784522249999999" blue="0.66662867770000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="Final1" destination="ZSW-hh-PGy" id="96c-8O-Da2"/>
                         <outlet property="Final2" destination="BxW-pO-Otp" id="b96-9I-KiW"/>
-                        <outlet property="image2" destination="W7x-aI-uL5" id="Q3u-Uh-P8n"/>
+                        <outlet property="P" destination="QZD-23-or0" id="4yq-SP-fqs"/>
+                        <outlet property="Q" destination="Vug-WO-h5a" id="Zwm-Ve-cO1"/>
                         <outlet property="imageA" destination="sKl-Kk-j42" id="vQ0-Zw-5be"/>
+                        <outlet property="imageB" destination="W7x-aI-uL5" id="49D-TT-w02"/>
                         <outlet property="x" destination="Vwe-pc-no0" id="zYh-Yp-alU"/>
                         <outlet property="y" destination="Cy1-9b-Hny" id="Rxa-R5-HrQ"/>
                         <outlet property="z" destination="0Bj-sr-tuZ" id="Djh-NL-vyS"/>
