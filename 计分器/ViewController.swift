@@ -115,7 +115,7 @@ class ViewController: UIViewController,
     @IBAction func A1(_ sender: UIButton) {
         P.text = "A发球"
         Q.text = " "
-        a=a+1
+        a = a + 1
         x.text = "\(a)"
         if a >= 10 && b >= 10{
             if a >= b+2{
@@ -127,11 +127,10 @@ class ViewController: UIViewController,
                 b = 0
                 x.text = "\(m)"
                 y.text = "\(m)"
-               
-
             }
-        }else if a > b && a == 11{
-            z.text="A选手获胜"
+        }
+        else if a > b && a == 11{
+            z.text = "A选手获胜"
             k = i + 1
             i += 1
             Final1.text = "\(k)"
@@ -139,9 +138,6 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
-           
-
-
         }
         
     }
@@ -149,7 +145,7 @@ class ViewController: UIViewController,
    
     @IBAction func A2(_ sender: UIButton) {
         
-        if a>=0{
+        if a >= 0{
             a = a - 1
         x.text = "\(a)"
         }
@@ -165,7 +161,7 @@ class ViewController: UIViewController,
         b = b + 1
         y.text = "\(b)"
         if a >= 10 && b >= 10{
-            if b >= a+2{
+            if b >= a + 2{
                 z.text = "B选手胜出"
                 l = j + 1
                 j += 1
@@ -176,7 +172,8 @@ class ViewController: UIViewController,
                 y.text = "\(m)"
 
             }
-        }else if b > a&&b == 11{
+        }
+        else if b > a&&b == 11{
             z.text="B选手获胜"
             l = j + 1
             j += 1
@@ -185,7 +182,6 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
-            
         }
      
     }
@@ -201,7 +197,7 @@ class ViewController: UIViewController,
             y.text = "\(0)"
         }
     }
-   
+
 
 
     override func viewDidLoad() {
