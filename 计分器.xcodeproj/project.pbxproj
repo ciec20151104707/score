@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1E07E61ED5387500E217EA /* d465cf3c2a78dd29fc30a6eb090e5536.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E07E51ED5387500E217EA /* d465cf3c2a78dd29fc30a6eb090e5536.jpg */; };
 		0E3570211E9488AF00445689 /* 53096adde9dbe29ca3dc3117254be925.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E3570201E9488AF00445689 /* 53096adde9dbe29ca3dc3117254be925.jpg */; };
 		0E3570231E9488B900445689 /* f35a618c70d1186512e81a58eb68e03c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E3570221E9488B900445689 /* f35a618c70d1186512e81a58eb68e03c.jpg */; };
 		0E3EAB471E88BDCD00BC16F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EAB461E88BDCD00BC16F5 /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1E07E51ED5387500E217EA /* d465cf3c2a78dd29fc30a6eb090e5536.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = d465cf3c2a78dd29fc30a6eb090e5536.jpg; path = ../../../Downloads/d465cf3c2a78dd29fc30a6eb090e5536.jpg; sourceTree = "<group>"; };
 		0E3570201E9488AF00445689 /* 53096adde9dbe29ca3dc3117254be925.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 53096adde9dbe29ca3dc3117254be925.jpg; path = ../../../Downloads/53096adde9dbe29ca3dc3117254be925.jpg; sourceTree = "<group>"; };
 		0E3570221E9488B900445689 /* f35a618c70d1186512e81a58eb68e03c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = f35a618c70d1186512e81a58eb68e03c.jpg; path = ../../../Downloads/f35a618c70d1186512e81a58eb68e03c.jpg; sourceTree = "<group>"; };
 		0E3EAB431E88BDCC00BC16F5 /* 计分器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计分器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				0E3EAB4D1E88BDCD00BC16F5 /* Assets.xcassets */,
 				0E3EAB4F1E88BDCD00BC16F5 /* LaunchScreen.storyboard */,
 				0E3EAB521E88BDCD00BC16F5 /* Info.plist */,
+				0E1E07E51ED5387500E217EA /* d465cf3c2a78dd29fc30a6eb090e5536.jpg */,
 			);
 			path = "计分器";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				0E3570211E9488AF00445689 /* 53096adde9dbe29ca3dc3117254be925.jpg in Resources */,
 				0E64204F1E8B65800025A911 /* TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg in Resources */,
 				0E3EAB4C1E88BDCD00BC16F5 /* Main.storyboard in Resources */,
+				0E1E07E61ED5387500E217EA /* d465cf3c2a78dd29fc30a6eb090e5536.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
