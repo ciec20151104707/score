@@ -18,6 +18,7 @@
 		0E3EAB5C1E88BDCD00BC16F5 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EAB5B1E88BDCD00BC16F5 /* ___Tests.swift */; };
 		0E3EAB671E88BDCD00BC16F5 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EAB661E88BDCD00BC16F5 /* ___UITests.swift */; };
 		0E64204F1E8B65800025A911 /* TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E64204E1E8B65800025A911 /* TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg */; };
+		0E6C77501EFC969F00441F0D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6C774F1EFC969F00441F0D /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0E3EAB661E88BDCD00BC16F5 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
 		0E3EAB681E88BDCD00BC16F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E64204E1E8B65800025A911 /* TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg"; path = "../../../Downloads/TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg"; sourceTree = "<group>"; };
+		0E6C774F1EFC969F00441F0D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6C77501EFC969F00441F0D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 				0E3EAB5A1E88BDCD00BC16F5 /* 计分器Tests */,
 				0E3EAB651E88BDCD00BC16F5 /* 计分器UITests */,
 				0E3EAB441E88BDCC00BC16F5 /* Products */,
+				0E6C774E1EFC969F00441F0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +139,14 @@
 				0E3EAB681E88BDCD00BC16F5 /* Info.plist */,
 			);
 			path = "计分器UITests";
+			sourceTree = "<group>";
+		};
+		0E6C774E1EFC969F00441F0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E6C774F1EFC969F00441F0D /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

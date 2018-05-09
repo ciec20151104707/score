@@ -198,7 +198,11 @@ class ViewController: UIViewController,
         }
     }
 
-
+    @IBAction func change(_ sender: UIButton) {
+        let image = imageA.image
+        imageA.image = imageB.image
+        imageB.image = image
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
