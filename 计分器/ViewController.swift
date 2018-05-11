@@ -20,8 +20,10 @@ var l : Int = 0
 var m : Int = 0
 
 class ViewController: UIViewController,
+    
     UIImagePickerControllerDelegate,
     UINavigationControllerDelegate{
+    
 
 
     @IBOutlet weak var x: UITextField!
@@ -113,7 +115,7 @@ class ViewController: UIViewController,
     @IBOutlet weak var Final1: UITextField!
     @IBOutlet weak var Final2: UITextField!
     @IBAction func A1(_ sender: UIButton) {
-        P.text = "A发球"
+        P.text = "发球"
         Q.text = " "
         a = a + 1
         x.text = "\(a)"
@@ -155,7 +157,7 @@ class ViewController: UIViewController,
         x.text = "\(0)"}
     }
     @IBAction func B1(_ sender: UIButton) {
-        Q.text = "B发球"
+        Q.text = "发球"
         P.text = " "
 
         b = b + 1
@@ -207,15 +209,18 @@ class ViewController: UIViewController,
         k=k+l
         l=k-l
         k=k-l
+        j=j+i
+        i=j-i
+        j=j-i
         Final1.text = "\(k)"
         Final2.text = "\(l)"
-
-        
     }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -225,4 +230,5 @@ class ViewController: UIViewController,
 
 
 }
+
 
