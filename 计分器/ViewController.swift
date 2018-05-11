@@ -13,7 +13,11 @@ var x : Int = 0
 var flagA : Int = 0
 var flagB : Int = 0
 var dlg : Int = 0
-
+var i : Int = 0
+var j : Int = 0
+var k : Int = 0
+var l : Int = 0
+var m : Int = 0
 
 class ViewController: UIViewController,
     UIImagePickerControllerDelegate,
@@ -85,11 +89,7 @@ class ViewController: UIViewController,
         })
     }
     
-    var i : Int = 0
-    var j : Int = 0
-    var k : Int = 0
-    var l : Int = 0
-    var m : Int = 0
+  
     @IBAction func restart(_ sender: UIButton) {
         a = 0
         b = 0
@@ -199,9 +199,18 @@ class ViewController: UIViewController,
     }
 
     @IBAction func change(_ sender: UIButton) {
+       
         let image = imageA.image
         imageA.image = imageB.image
         imageB.image = image
+        //let changetext = Final1.text
+        k=k+l
+        l=k-l
+        k=k-l
+        Final1.text = "\(k)"
+        Final2.text = "\(l)"
+
+        
     }
 
     override func viewDidLoad() {
