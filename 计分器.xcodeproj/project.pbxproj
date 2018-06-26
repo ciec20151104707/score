@@ -57,6 +57,7 @@
 		0E3EAB681E88BDCD00BC16F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E64204E1E8B65800025A911 /* TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg"; path = "../../../Downloads/TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg"; sourceTree = "<group>"; };
 		0E6C774F1EFC969F00441F0D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0E8969F220E1C24C003D8EC8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +145,7 @@
 		0E6C774E1EFC969F00441F0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E8969F220E1C24C003D8EC8 /* libsqlite3.0.tbd */,
 				0E6C774F1EFC969F00441F0D /* libsqlite3.tbd */,
 			);
 			name = Frameworks;

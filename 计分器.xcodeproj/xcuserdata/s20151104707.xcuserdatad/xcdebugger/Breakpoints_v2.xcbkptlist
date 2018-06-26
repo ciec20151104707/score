@@ -10,13 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x8ba1;&#x5206;&#x5668;/ViewController.swift"
-            timestampString = "547718686.804175"
+            timestampString = "551671208.167865"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
-            landmarkName = "ViewController"
-            landmarkType = "3">
+            startingLineNumber = "305"
+            endingLineNumber = "305">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

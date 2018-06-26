@@ -6,7 +6,9 @@
 //  Copyright © 2017年 s20151104707. All rights reserved.
 //
 
+
 import UIKit
+
 var a : Int = 0
 var b : Int = 0
 var x : Int = 0
@@ -140,6 +142,34 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
+            let alertVC = UIAlertController(title: "比赛结束 A赢", message: "" , preferredStyle: UIAlertControllerStyle.alert)
+            
+            
+            let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive)
+            { (UIAlertAction) -> Void in
+                
+                
+                print("click Sure")
+                
+                
+            }
+            
+            
+            let acCancel = UIAlertAction(title: "取消", style: UIAlertActionStyle.cancel)
+            {
+                (UIAlertAction) -> Void in
+                print("click Cancel")
+            }
+            
+            
+            
+            alertVC.addAction(acSure)
+            
+            
+            alertVC.addAction(acCancel)
+            
+            
+            self.present(alertVC, animated: true, completion: nil)
         }
         
     }
@@ -184,6 +214,35 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
+            let alertVC = UIAlertController(title: "比赛结束 B赢", message: "" , preferredStyle: UIAlertControllerStyle.alert)
+            
+            
+            let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive)
+            { (UIAlertAction) -> Void in
+                
+                
+                print("click Sure")
+                
+                
+            }
+            
+            
+            let acCancel = UIAlertAction(title: "取消", style: UIAlertActionStyle.cancel)
+            {
+                (UIAlertAction) -> Void in
+                print("click Cancel")
+            }
+            
+            
+            
+            alertVC.addAction(acSure)
+            
+            
+            alertVC.addAction(acCancel)
+            
+            
+            self.present(alertVC, animated: true, completion: nil)
+
         }
      
     }
@@ -200,8 +259,10 @@ class ViewController: UIViewController,
         }
     }
 
+
+
     @IBAction func change(_ sender: UIButton) {
-       
+    
         let image = imageA.image
         imageA.image = imageB.image
         imageB.image = image
@@ -214,7 +275,12 @@ class ViewController: UIViewController,
         j=j-i
         Final1.text = "\(k)"
         Final2.text = "\(l)"
+
+        
+        
     }
+    
+ 
     
 
     override func viewDidLoad() {
