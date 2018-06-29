@@ -40,7 +40,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="aG7-cn-Z6q"/>
+                                    <segue destination="ndn-bD-TwJ" kind="show" id="X61-al-EEi"/>
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Qw0-j5-Enb">
@@ -56,7 +56,68 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iF5-vJ-yYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-511" y="8"/>
+            <point key="canvasLocation" x="-615" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BIh-cc-CuC">
+            <objects>
+                <viewController id="ndn-bD-TwJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JXs-S2-djQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="EEZ-ax-lLo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QM9-Zk-POo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAe-f6-2bW">
+                                <rect key="frame" x="96" y="371" width="197" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="单打比赛（7局4胜）">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="nlz-2U-irR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d47-wG-vqe">
+                                <rect key="frame" x="96" y="445" width="197" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="团体比赛（5局3胜）">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fNp-jA-14g" kind="show" id="QDd-UR-hGG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请选择比赛类型" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhz-3l-lEo">
+                                <rect key="frame" x="102" y="48" width="175" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d465cf3c2a78dd29fc30a6eb090e5536.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gsv-1l-ej2">
+                                <rect key="frame" x="22" y="176" width="331" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKU-v9-cFx">
+                                <rect key="frame" x="101" y="509" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="返回首页">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EXw-DA-Zey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12" y="0.0"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -148,10 +209,6 @@
                                     <action selector="img2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oNB-NC-4jU"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKl-Kk-j42">
-                                <rect key="frame" x="-5" y="20" width="144" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7x-aI-uL5">
                                 <rect key="frame" x="238" y="20" width="145" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -217,7 +274,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="返回上一界面"/>
                                 <connections>
-                                    <segue destination="Geb-Hp-cNo" kind="show" id="f5x-c0-s1N"/>
+                                    <segue destination="ndn-bD-TwJ" kind="show" id="2AZ-4W-g1c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkE-pE-NuN">
@@ -228,6 +285,10 @@
                                     <action selector="change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LaQ-gV-5YK"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKl-Kk-j42">
+                                <rect key="frame" x="0.0" y="20" width="144" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -245,11 +306,72 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="92" y="7.6461769115442282"/>
+            <point key="canvasLocation" x="593" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ss8-MR-aDZ">
+            <objects>
+                <viewController id="fNp-jA-14g" customClass="ViewController" customModule="计分器" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="109-lH-FPd"/>
+                        <viewControllerLayoutGuide type="bottom" id="QAQ-2V-7fK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0AF-vi-7wi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OHD-22-CRo">
+                                <rect key="frame" x="231" y="20" width="144" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CW6-vQ-XhG">
+                                <rect key="frame" x="0.0" y="20" width="144" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="乒乓球计分系统" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2rg-vD-ajS">
+                                <rect key="frame" x="139" y="20" width="96" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wc2-6I-3Oz">
+                                <rect key="frame" x="16" y="131" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="上传头像"/>
+                                <connections>
+                                    <action selector="image3:" destination="fNp-jA-14g" eventType="touchUpInside" id="K3W-bh-1OX"/>
+                                    <action selector="img1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0d-80-NB8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaD-qW-vRa">
+                                <rect key="frame" x="272" y="131" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="上传头像"/>
+                                <connections>
+                                    <action selector="image4:" destination="fNp-jA-14g" eventType="touchUpInside" id="OWI-um-hyD"/>
+                                    <action selector="img1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhH-RI-Lqg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageA" destination="CW6-vQ-XhG" id="Ubv-Op-Wno"/>
+                        <outlet property="imageC" destination="CW6-vQ-XhG" id="fwn-uc-Jkz"/>
+                        <outlet property="imageD" destination="OHD-22-CRo" id="ue8-fK-eSv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kLj-6G-RE5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194" y="0.0"/>
         </scene>
     </scenes>
     <resources>
         <image name="TB2Gh0NaHWJ.eBjSspdXXXiXFXa_!!515372749.jpg" width="380" height="223"/>
         <image name="d465cf3c2a78dd29fc30a6eb090e5536.jpg" width="1920" height="1079"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="2AZ-4W-g1c"/>
+    </inferredMetricsTieBreakers>
 </document>

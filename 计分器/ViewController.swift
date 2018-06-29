@@ -33,6 +33,8 @@ class ViewController: UIViewController,
     @IBOutlet weak var z: UITextField!
     @IBOutlet weak var imageA: UIImageView!
     @IBOutlet weak var imageB: UIImageView!
+    @IBOutlet weak var imageC: UIImageView!
+    @IBOutlet weak var imageD: UIImageView!
     @IBOutlet weak var P: UITextField!
     @IBOutlet weak var Q: UITextField!
     @IBAction func img1(_ sender: UIButton) {
@@ -93,7 +95,9 @@ class ViewController: UIViewController,
         })
     }
     
+
   
+
     @IBAction func restart(_ sender: UIButton) {
         a = 0
         b = 0
@@ -142,7 +146,8 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
-            let alertVC = UIAlertController(title: "比赛结束 A赢", message: "" , preferredStyle: UIAlertControllerStyle.alert)
+            if(k==4){
+            let alertVC = UIAlertController(title: "比赛结束 A赢", message: "A:B"+"\n"+"总比分："+String(k)+":"+String(l) , preferredStyle: UIAlertControllerStyle.alert)
             
             
             let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive)
@@ -171,7 +176,7 @@ class ViewController: UIViewController,
             
             self.present(alertVC, animated: true, completion: nil)
         }
-        
+        }
     }
 
    
@@ -214,7 +219,8 @@ class ViewController: UIViewController,
             b = 0
             x.text = "\(m)"
             y.text = "\(m)"
-            let alertVC = UIAlertController(title: "比赛结束 B赢", message: "" , preferredStyle: UIAlertControllerStyle.alert)
+            if(l==4){
+            let alertVC = UIAlertController(title: "比赛结束 B赢", message: "A:B"+"\n"+"总比分："+String(k)+":"+String(l) , preferredStyle: UIAlertControllerStyle.alert)
             
             
             let acSure = UIAlertAction(title: "确定", style: UIAlertActionStyle.destructive)
@@ -242,7 +248,7 @@ class ViewController: UIViewController,
             
             
             self.present(alertVC, animated: true, completion: nil)
-
+            }
         }
      
     }
@@ -280,7 +286,6 @@ class ViewController: UIViewController,
         
     }
     
- 
     
 
     override func viewDidLoad() {
